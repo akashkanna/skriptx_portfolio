@@ -1,0 +1,223 @@
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:"Poppins",sans-serif;
+}
+
+body{
+background:#070914;
+color:#fff;
+line-height:1.6;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+position:sticky;
+top:0;
+background:#070914;
+z-index:100;
+}
+
+nav h2{
+color:#8a6cff;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:30px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:#ccc;
+font-size:14px;
+transition:0.3s;
+}
+
+nav ul li a:hover{
+color:#8a6cff;
+}
+
+/* HERO */
+
+.hero{
+height:90vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+flex-direction:column;
+}
+
+.hero h1{
+font-size:55px;
+font-weight:700;
+}
+
+.hero span{
+color:#8a6cff;
+}
+
+.hero p{
+margin-top:10px;
+color:#aaa;
+}
+
+.buttons{
+margin-top:30px;
+}
+
+.btn{
+padding:12px 24px;
+border-radius:8px;
+border:none;
+margin:10px;
+cursor:pointer;
+font-weight:500;
+}
+
+.primary{
+background:#8a6cff;
+color:#fff;
+}
+
+.secondary{
+background:transparent;
+border:1px solid #8a6cff;
+color:#8a6cff;
+}
+
+/* SECTION */
+
+section{
+padding:100px 10%;
+}
+
+.section-title{
+text-align:center;
+font-size:36px;
+margin-bottom:60px;
+color:#8a6cff;
+}
+
+/* GLASS CARD */
+
+.card{
+background:rgba(255,255,255,0.05);
+padding:30px;
+border-radius:14px;
+border:1px solid rgba(255,255,255,0.05);
+backdrop-filter:blur(10px);
+}
+
+/* ABOUT */
+
+.about-box{
+max-width:900px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:25px;
+}
+
+/* SKILLS */
+
+.skills-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.skill-tags{
+margin-top:15px;
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+}
+
+.tag{
+background:#1a1d30;
+padding:6px 12px;
+border-radius:20px;
+font-size:12px;
+color:#ccc;
+}
+
+/* PROJECTS */
+
+.projects-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+}
+
+.project-title{
+font-size:20px;
+margin-bottom:10px;
+}
+
+.project-buttons{
+margin-top:15px;
+}
+
+.project-buttons button{
+padding:8px 16px;
+margin-right:10px;
+border-radius:6px;
+border:none;
+cursor:pointer;
+}
+
+.code{
+background:#111;
+color:#fff;
+border:1px solid #333;
+}
+
+.demo{
+background:#8a6cff;
+color:white;
+}
+
+/* CONTACT */
+
+.contact{
+text-align:center;
+max-width:700px;
+margin:auto;
+}
+
+.contact-buttons{
+margin-top:30px;
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:15px;
+}
+
+.contact-buttons button{
+padding:12px 20px;
+border-radius:8px;
+border:1px solid #333;
+background:#111;
+color:#fff;
+cursor:pointer;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:30px;
+color:#777;
+border-top:1px solid #111;
+}
+
